@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tfs.lock_screen.MainActivity"
+    android:orientation="vertical"
+    android:background="#000000">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/love"
+        android:layout_weight="1"
+          android:layout_margin="2dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:onClick="ShowLoveImages_click"/>
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/game"
+        android:layout_weight="1"
+        android:layout_margin="2dp"
+        android:adjustViewBounds="true"
+        android:onClick="ShowGameImages_click"/>
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/cartoon"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:onClick="ShowCartoonImages_click"/>
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/sceneries"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:adjustViewBounds="true"
+            android:onClick="ShowSceneriesImages_click"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/armour"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:onClick="ShowArmourImages_click"/>
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/knife"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:adjustViewBounds="true"
+            android:onClick="ShowKnivesImages_click"/>
+    </LinearLayout>
+
+</LinearLayout>
